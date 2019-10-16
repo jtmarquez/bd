@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel = 'stylesheet' href = 'stylesheet.css'></head>
+    <body bgcolor= #E0E0E0>
+
+            <ul>
+              <li><a href="h.html" style='color:white'>Grupo 29 y 50</a></li>
+              <li><a href="ongs.html">ONGs</a></li>
+              <li><a href="recursos.html">Recursos</a></li>
+              <li><a href="iniciarsesion.html">Iniciar sesión</a></li>
+              <li><a class="active" href="crearsesion.html" style = 'color:black'>Crear sesión</a></li>
+            </ul>
+    </body>
+    <head>
+            <link rel = 'stylesheet' href = 'iniciarsesion.css'>
+    </head> 
+    <body>
+    
+    <h2>Iniciar sesión</h2>
+    
+    <form action="/action_page.php" method="post">
+      <div class="container">
+        <p> Ingresa aquí tus datos para tu nueva cuenta</p>
+        <label for="uname"><b>Usuario</b></label>
+        <input type="text" placeholder="Ingresa aquí tu nombre de usuario" name="uname" required>
+    
+        <label for="psw"><b>Constraseña</b></label>
+        <input type="password" placeholder="Ingresa aquí tu contraseña" name="psw" required>
+        <label for="psw1"><b>Constraseña</b></label>
+        <input type="password" placeholder="Ingresa aquí tu contraseña nuevamente" name="psw1" required>
+        
+        <label for="nombre"><b>Nombre completo</b></label>
+        <input type="text" placeholder="Ingresa aquí tu nombre y apellido" name="nombre" required>
+
+        <button type="submit">Iniciar sesión</button>
+      </div>
+    </form>
+    
+    </body>
+
+
+</html>
